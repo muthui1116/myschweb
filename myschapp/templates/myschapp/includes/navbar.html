@@ -1,0 +1,42 @@
+{% load static%}
+
+<section id="title">
+        <!-- Nav Bar-->
+        <header class="masthead" style="background-image:  url(static/myschapp/images/home-bg.jpg); height: 500px; background-position: center; background-repeat: no-repeat; background-size: cover;">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="{% url 'myschapp-home'%}">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Regester</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Post</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+
+            <!-- Title  -->
+            <div class="">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Education</h1>
+                            <span class="subheading">An investment in knowledge pays the best interest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+</section>

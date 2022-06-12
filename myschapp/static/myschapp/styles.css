@@ -1,0 +1,30 @@
+body{
+    background-color: #F9F9F9;
+    font-family: 'Merriweather', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.site-heading{
+    text-align: center;
+    margin-top: 140px;
+}
+.navbar{
+    padding: 2rem 2rem;
+}
+.nav-link{
+    color: #ffffff;
+    font-weight: 1000;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid{
+    padding: 2rem 2rem;
+}
+.card{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
