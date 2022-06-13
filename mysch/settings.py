@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ii8jf06xkm_n%q2^%xj5ge3yz+s74q3#h7^@618+p_se)tzu7_'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'mysch.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysch',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '1234567fkq.',
+        'ENGINE': '',
+        'NAME': '',
+        'HOST': '',
+        'USER': '',
+        'PASSWORD': '',
     }
 }
 
